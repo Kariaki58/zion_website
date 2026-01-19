@@ -10,11 +10,11 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center" prefetch={false}>
               <Image
-                src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+                src="/logo_zigon.png"
                 alt="Lagos Luxe logo"
                 width={180}
                 height={50}
-                className="dark:invert"
+                className="w-28 h-10"
               />
             </Link>
             <p className="max-w-xs text-sm">

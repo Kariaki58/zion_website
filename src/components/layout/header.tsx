@@ -30,11 +30,11 @@ export function Header() {
       <div className="container flex h-20 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center" prefetch={false}>
           <Image
-            src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+            src="/logo_zigon.png"
             alt="Lagos Luxe logo"
             width={180}
             height={50}
-            className="dark:invert"
+            className="w-28 h-10"
           />
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
@@ -69,11 +69,11 @@ export function Header() {
               <div className="grid gap-4 p-4">
                  <Link href="/" className="flex items-center" prefetch={false}>
                    <Image
-                    src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+                    src="/logo_zigon.png"
                     alt="Lagos Luxe logo"
                     width={180}
                     height={50}
-                    className="dark:invert"
+                    className="w-28 h-10"
                   />
                  </Link>
                 <nav className="grid gap-2 text-lg font-medium mt-4">
