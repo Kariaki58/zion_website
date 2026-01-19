@@ -59,8 +59,8 @@ export function ProductFilters() {
                 onValueChange={setPriceRange}
               />
               <div className="flex justify-between mt-2 text-muted-foreground">
-                <span>₦{priceRange[0]}</span>
-                <span>₦{priceRange[1]}</span>
+                <span>₦{priceRange[0].toLocaleString()}</span>
+                <span>₦{priceRange[1].toLocaleString()}</span>
               </div>
             </div>
           </AccordionContent>
