@@ -25,7 +25,7 @@ export function ProductCard({ product }: ProductCardProps) {
             <h3 className="font-semibold text-lg text-foreground truncate">{product.name}</h3>
             <p className="text-muted-foreground text-sm">{product.category}</p>
             <p className="font-bold text-lg text-foreground mt-2">
-              ${product.price.toFixed(2)}
+              ₦{product.price.toFixed(2)}
             </p>
           </div>
         </CardContent>

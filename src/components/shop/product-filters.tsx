@@ -52,14 +52,14 @@ export function ProductFilters() {
           <AccordionContent>
             <div className="py-4">
               <Slider
-                defaultValue={[250]}
+                defaultValue={priceRange}
                 max={500}
                 step={10}
-                onValueChange={(value) => setPriceRange(value)}
+                onValueChange={setPriceRange}
               />
               <div className="flex justify-between mt-2 text-muted-foreground">
-                <span>${priceRange[0]}</span>
-                <span>${priceRange[1] || '500'}</span>
+                <span>₦{priceRange[0]}</span>
+                <span>₦{priceRange[1]}</span>
               </div>
             </div>
           </AccordionContent>

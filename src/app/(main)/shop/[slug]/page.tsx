@@ -37,7 +37,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           </div>
           <div className="flex flex-col">
             <h1 className="font-headline text-3xl md:text-4xl font-bold text-foreground">{product.name}</h1>
-            <p className="font-bold text-2xl text-foreground mt-2">${product.price.toFixed(2)}</p>
+            <p className="font-bold text-2xl text-foreground mt-2">₦{product.price.toFixed(2)}</p>
             <p className="mt-4 text-lg text-muted-foreground">{product.description}</p>
             
             <Separator className="my-8" />
