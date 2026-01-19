@@ -15,7 +15,7 @@ const categories = ["Men", "Women", "Accessories"];
 const sizes = ["S", "M", "L", "XL", "One Size"];
 
 export function ProductFilters() {
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([10000, 30000]);
 
   return (
     <div className="lg:sticky lg:top-24">
@@ -52,9 +52,10 @@ export function ProductFilters() {
           <AccordionContent>
             <div className="py-4">
               <Slider
-                defaultValue={priceRange}
-                max={500}
-                step={10}
+                value={priceRange}
+                min={10000}
+                max={30000}
+                step={1000}
                 onValueChange={setPriceRange}
               />
               <div className="flex justify-between mt-2 text-muted-foreground">
