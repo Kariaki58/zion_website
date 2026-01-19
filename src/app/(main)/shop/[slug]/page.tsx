@@ -60,13 +60,13 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Select Size</h3>
-              <RadioGroup value={selectedSize || undefined} onValueChange={setSelectedSize} className="flex flex-wrap gap-2">
+              <RadioGroup value={selectedSize || ""} onValueChange={setSelectedSize} className="flex flex-wrap gap-2">
                 {product.sizes.map((size) => (
                   <div key={size}>
-                    <RadioGroupItem value={size} id={`size-${size}`} className="sr-only" />
+                    <RadioGroupItem value={size} id={`size-${size}`} className="sr-only peer" />
                     <Label
                       htmlFor={`size-${size}`}
-                      className="flex items-center justify-center rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary [&:has([data-state=checked])]:border-primary cursor-pointer h-12 w-12"
+                      className="flex items-center justify-center rounded-md border-2 border-muted bg-popover p-4 hover:bg-accent hover:text-accent-foreground peer-data-[state=checked]:border-primary cursor-pointer h-12 w-12"
                     >
                       {size}
                     </Label>
