@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from 'react';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Menu } from 'lucide-react';
@@ -24,6 +26,7 @@ const navLinks = [
 
 export function Header() {
   const pathname = usePathname();
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -58,7 +61,7 @@ export function Header() {
           <div className="hidden md:block">
             <CartSheet />
           </div>
-          <Sheet>
+          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-6 w-6" />
@@ -67,7 +70,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="grid gap-4 p-4">
-                 <Link href="/" className="flex items-center" prefetch={false}>
+                <Link href="/" className="flex items-center" prefetch={false} onClick={() => setIsSheetOpen(false)}>
                    <Image
                     src="/logo_zigon.png"
                     alt="Lagos Luxe logo"
@@ -86,6 +89,7 @@ export function Header() {
                          pathname === link.href ? "text-foreground" : "text-foreground/60",
                          link.href === '/checkout' ? 'hidden' : ''
                       )}
+                      onClick={() => setIsSheetOpen(false)}
                       prefetch={false}
                     >
                       {link.label}
