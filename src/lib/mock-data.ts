@@ -13,6 +13,8 @@ export type Product = {
   };
   category: 'Men' | 'Women' | 'Accessories';
   sizes: string[];
+  isNewArrival?: boolean;
+  isBestSeller?: boolean;
 };
 
 const getImage = (id: string) => {
@@ -33,6 +35,7 @@ export const products: Product[] = [
     image: getImage('product-1'),
     category: 'Women',
     sizes: ['S', 'M', 'L', 'XL'],
+    isNewArrival: true,
   },
   {
     id: '2',
@@ -43,6 +46,7 @@ export const products: Product[] = [
     image: getImage('product-2'),
     category: 'Women',
     sizes: ['S', 'M', 'L'],
+    isBestSeller: true,
   },
   {
     id: '3',
@@ -63,6 +67,7 @@ export const products: Product[] = [
     image: getImage('product-4'),
     category: 'Women',
     sizes: ['S', 'M', 'L', 'XL'],
+    isNewArrival: true,
   },
   {
     id: '5',
@@ -73,6 +78,7 @@ export const products: Product[] = [
     image: getImage('product-5'),
     category: 'Men',
     sizes: ['38R', '40R', '42R', '44R'],
+    isBestSeller: true,
   },
   {
     id: '6',
@@ -93,6 +99,7 @@ export const products: Product[] = [
     image: getImage('product-7'),
     category: 'Women',
     sizes: ['S', 'M', 'L'],
+    isNewArrival: true,
   },
   {
     id: '8',
@@ -103,6 +110,7 @@ export const products: Product[] = [
     image: getImage('product-8'),
     category: 'Women',
     sizes: ['S', 'M', 'L', 'XL'],
+    isBestSeller: true,
   },
 ];
 
@@ -111,3 +119,31 @@ export const clothingItemsForVisualizer = products.map(p => ({
   label: p.name,
   description: p.description
 }));
+
+export const testimonials = [
+  {
+    id: '1',
+    name: 'Adebayo T.',
+    avatarImageId: 'testimonial-1',
+    quote: 'The quality of the fabric is just outstanding. I feel like royalty wearing my Lagos Luxe shirt. I get compliments everywhere I go!'
+  },
+  {
+    id: '2',
+    name: 'Chiamaka N.',
+    avatarImageId: 'testimonial-3',
+    quote: 'Finally, a brand that truly understands modern African elegance. The designs are so unique and powerful. I\'m a customer for life.'
+  },
+  {
+    id: '3',
+    name: 'Femi A.',
+    avatarImageId: 'testimonial-2',
+    quote: 'My blazer is my new favorite piece of clothing. The fit is perfect, and it just commands respect. Worth every single Naira.'
+  }
+];
+
+export const customerPhotos = [
+  { id: 'customer-1' },
+  { id: 'customer-2' },
+  { id: 'customer-3' },
+  { id: 'customer-4' },
+];

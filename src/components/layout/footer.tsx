@@ -42,6 +42,9 @@ export function Footer() {
                 <Link href="/contact" className="hover:text-foreground" prefetch={false}>
                   Contact Us
                 </Link>
+                <Link href="/tracking" className="hover:text-foreground" prefetch={false}>
+                  Order Tracking
+                </Link>
                 <Link href="#" className="hover:text-foreground" prefetch={false}>
                   FAQs
                 </Link>

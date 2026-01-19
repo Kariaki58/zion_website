@@ -1,5 +1,4 @@
 import { config } from 'dotenv';
 config();
 
-import '@/ai/flows/recommend-size-from-photo.ts';
-import '@/ai/flows/visualize-outfit.ts';
+// Flows removed as per user request.
