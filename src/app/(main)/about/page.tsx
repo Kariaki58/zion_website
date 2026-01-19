@@ -10,17 +10,20 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="order-2 md:order-1">
             <h1 className="font-headline text-4xl md:text-5xl font-bold text-foreground !leading-tight">
-              Crafted in Lagos, Worn with Confidence.
+              Crafted with Excellence, Worn with Confidence.
             </h1>
             <div className="mt-6 space-y-6 text-lg text-muted-foreground">
               <p>
-                Lagos Luxe was born from a desire to redefine modern African fashion. Our story isn't just about clothing; it's about an identity. We are rooted in the vibrant, pulsating energy of Lagos, a city that inspires our every design with its blend of rich heritage and forward-thinking style.
+                🏆 ZIGON is a multi sector company redefining modern luxury across Fashion, Interior Design, Real Estate, and Contracting.
+              </p>
+              <p>
+                Our dedicated team merges creativity with craftsmanship to deliver timeless pieces, exquisite spaces, and world class projects that embody confidence, elegance, and innovation.
               </p>
               <p>
                 We believe in the power of craftsmanship. Each piece in our collection is a testament to the skill of local artisans, created with meticulous attention to detail and a commitment to quality. We select only premium materials that not only look exquisite but feel incredible to wear.
               </p>
               <p>
-                Our mission is to create garments that empower you. We design for the bold, the confident, and the fashion-forward individual who values both status and substance. When you wear Lagos Luxe, you're not just wearing a brand; you're wearing a piece of Lagos culture, a symbol of self-assurance and contemporary elegance.
+                At ZIGON, we don't just build or style, we create experiences that inspire excellence, reflect sophistication, and leave a lasting impression. We design for the bold, the confident, and the fashion-forward individual who values both status and substance.
               </p>
             </div>
           </div>
@@ -28,7 +31,7 @@ export default function AboutPage() {
             {aboutImage && (
               <div className="aspect-square relative rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src={aboutImage.imageUrl}
+                  src="/about-image.png"
                   alt={aboutImage.description}
                   fill
                   className="object-cover"

@@ -11,7 +11,7 @@ export type Product = {
     alt: string;
     hint: string;
   };
-  category: 'Men' | 'Women' | 'Accessories';
+  category: 'Dresses' | 'Tops & Blouses' | 'Bottoms' | 'Accessories';
   sizes: string[];
   isNewArrival?: boolean;
   isBestSeller?: boolean;
@@ -30,10 +30,10 @@ export const products: Product[] = [
     id: '1',
     slug: 'elegant-green-silk-shirt',
     name: 'Elegant Green Silk Shirt',
-    description: 'Crafted from the finest silk, this shirt offers a luxurious feel and a flattering drape. A timeless piece for any wardrobe.',
+    description: 'Crafted from the finest silk, this elegant dress offers a luxurious feel and a flattering drape. A timeless piece for any wardrobe.',
     price: 15000,
     image: getImage('product-1'),
-    category: 'Women',
+    category: 'Tops & Blouses',
     sizes: ['S', 'M', 'L', 'XL'],
     isNewArrival: true,
   },
@@ -44,7 +44,7 @@ export const products: Product[] = [
     description: 'Make a statement with these bold patterned trousers. The modern cut ensures a comfortable fit and a stylish silhouette.',
     price: 12000,
     image: getImage('product-2'),
-    category: 'Women',
+    category: 'Bottoms',
     sizes: ['S', 'M', 'L'],
     isBestSeller: true,
   },
@@ -65,20 +65,9 @@ export const products: Product[] = [
     description: 'Embrace effortless style with this flowing linen dress. Breathable, comfortable, and undeniably chic.',
     price: 18000,
     image: getImage('product-4'),
-    category: 'Women',
+    category: 'Dresses',
     sizes: ['S', 'M', 'L', 'XL'],
     isNewArrival: true,
-  },
-  {
-    id: '5',
-    slug: 'sharp-tailored-blazer',
-    name: 'Sharp Tailored Blazer',
-    description: 'A masterfully tailored blazer that exudes confidence. The sharp lines and quality fabric make it a standout piece for men.',
-    price: 25000,
-    image: getImage('product-5'),
-    category: 'Men',
-    sizes: ['38R', '40R', '42R', '44R'],
-    isBestSeller: true,
   },
   {
     id: '6',
@@ -97,7 +86,7 @@ export const products: Product[] = [
     description: 'A stunning top made from traditional Aso-Oke fabric, reimagined with a modern design. A true celebration of heritage.',
     price: 13500,
     image: getImage('product-7'),
-    category: 'Women',
+    category: 'Tops & Blouses',
     sizes: ['S', 'M', 'L'],
     isNewArrival: true,
   },
@@ -108,7 +97,7 @@ export const products: Product[] = [
     description: 'The epitome of modern sophistication. This black jumpsuit features a clean, minimalist design for a powerful look.',
     price: 22000,
     image: getImage('product-8'),
-    category: 'Women',
+    category: 'Dresses',
     sizes: ['S', 'M', 'L', 'XL'],
     isBestSeller: true,
   },
@@ -125,7 +114,7 @@ export const testimonials = [
     id: '1',
     name: 'Adebayo T.',
     avatarImageId: 'testimonial-1',
-    quote: 'The quality of the fabric is just outstanding. I feel like royalty wearing my Lagos Luxe shirt. I get compliments everywhere I go!'
+    quote: 'The quality of the fabric is just outstanding. I feel like royalty wearing my ZIGON dress. I get compliments everywhere I go!'
   },
   {
     id: '2',
@@ -135,9 +124,9 @@ export const testimonials = [
   },
   {
     id: '3',
-    name: 'Femi A.',
+    name: 'Folake A.',
     avatarImageId: 'testimonial-2',
-    quote: 'My blazer is my new favorite piece of clothing. The fit is perfect, and it just commands respect. Worth every single Naira.'
+    quote: 'My dress is my new favorite piece of clothing. The fit is perfect, and it just commands respect. Worth every single Naira.'
   }
 ];
 

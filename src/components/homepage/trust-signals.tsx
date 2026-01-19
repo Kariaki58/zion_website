@@ -3,8 +3,8 @@ import { Truck, Gem, Undo2 } from 'lucide-react';
 const signals = [
   {
     icon: <Truck className="h-8 w-8 text-primary" />,
-    title: 'Delivery Across Lagos',
-    description: 'Fast and reliable delivery to your doorstep, wherever you are in Lagos.'
+    title: 'Delivery Across Nigeria',
+    description: 'Fast and reliable delivery to your doorstep, wherever you are in Nigeria.'
   },
   {
     icon: <Gem className="h-8 w-8 text-primary" />,

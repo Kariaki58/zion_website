@@ -99,7 +99,7 @@ export function CheckoutForm() {
                   <FormField control={form.control} name="city" render={({ field }) => (
                       <FormItem>
                         <FormLabel>City</FormLabel>
-                        <FormControl><Input placeholder="Lekki" {...field} /></FormControl>
+                        <FormControl><Input placeholder="Uyo" {...field} /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
@@ -107,7 +107,7 @@ export function CheckoutForm() {
                   <FormField control={form.control} name="state" render={({ field }) => (
                       <FormItem>
                         <FormLabel>State</FormLabel>
-                        <FormControl><Input placeholder="Lagos" {...field} /></FormControl>
+                        <FormControl><Input placeholder="Akwa Ibom State" {...field} /></FormControl>
                         <FormMessage />
                       </FormItem>
                     )}

@@ -2,15 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A stylish person in a vibrant urban Lagos setting.",
+      "description": "A stylish woman in a vibrant urban setting.",
       "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY4Njk1ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fashion model"
-    },
-    {
-      "id": "men-collection",
-      "description": "A man wearing modern African-inspired clothing.",
-      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYWxlJTIwbW9kZWx8ZW58MHx8fHwxNzY4NzQyNjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "male model"
+      "imageHint": "female fashion model"
     },
     {
       "id": "women-collection",
@@ -26,93 +20,93 @@
     },
     {
       "id": "product-1",
-      "description": "Elegant green silk shirt.",
-      "imageUrl": "https://images.unsplash.com/photo-1639747280111-9a32b2c038ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNoaXJ0fGVufDB8fHx8MTc2ODgwMTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "green shirt"
+      "description": "Woman wearing elegant green silk blouse.",
+      "imageUrl": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing green blouse"
     },
     {
       "id": "product-2",
-      "description": "Patterned trousers with a modern cut.",
-      "imageUrl": "https://images.unsplash.com/photo-1763741141483-1c2e71d32367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXR0ZXJuZWQlMjB0cm91c2Vyc3xlbnwwfHx8fDE3Njg4MDEzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "patterned trousers"
+      "description": "Woman wearing patterned trousers with a modern cut.",
+      "imageUrl": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing patterned trousers"
     },
     {
       "id": "product-3",
-      "description": "Gold accent necklace.",
-      "imageUrl": "https://images.unsplash.com/photo-1705326454924-f6777522b030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb2xkJTIwbmVja2xhY2V8ZW58MHx8fHwxNzY4Nzg1MzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "gold necklace"
+      "description": "Woman wearing gold accent necklace.",
+      "imageUrl": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing gold necklace"
     },
     {
       "id": "product-4",
-      "description": "A flowing white linen dress.",
+      "description": "Woman wearing a flowing white linen dress.",
       "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMGRyZXNzfGVufDB8fHx8MTc2ODc4Mzg4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "white dress"
+      "imageHint": "woman wearing white dress"
     },
     {
       "id": "product-5",
-      "description": "A sharp, tailored blazer for men.",
-      "imageUrl": "https://images.unsplash.com/photo-1717730798531-6a62ed43b871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZW4lMjBibGF6ZXJ8ZW58MHx8fHwxNzY4ODAxMzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "men blazer"
+      "description": "Woman wearing a sharp, tailored blazer.",
+      "imageUrl": "https://images.unsplash.com/photo-1583496661160-fb5886a13d28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing blazer"
     },
     {
       "id": "product-6",
-      "description": "Handcrafted leather sandals.",
-      "imageUrl": "https://images.unsplash.com/photo-1728384577685-91f8de0acc89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWF0aGVyJTIwc2FuZGFsc3xlbnwwfHx8fDE3Njg4MDEzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "leather sandals"
+      "description": "Woman wearing handcrafted leather sandals.",
+      "imageUrl": "https://images.unsplash.com/photo-1544966503-7cc49f2f68e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing leather sandals"
     },
     {
       "id": "product-7",
-      "description": "A vibrant Aso-Oke fabric top.",
-      "imageUrl": "https://images.unsplash.com/photo-1757802504647-afc994581932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYWJyaWMlMjB0b3B8ZW58MHx8fHwxNzY4ODAxMzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fabric top"
+      "description": "Woman wearing a vibrant Aso-Oke fabric top.",
+      "imageUrl": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman wearing african fabric top"
     },
     {
       "id": "product-8",
-      "description": "A minimalist black jumpsuit.",
+      "description": "Woman wearing a minimalist black jumpsuit.",
       "imageUrl": "https://images.unsplash.com/photo-1528674452993-a59496256bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMGp1bXBzdWl0fGVufDB8fHx8MTc2ODgwMTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "black jumpsuit"
+      "imageHint": "woman wearing black jumpsuit"
     },
     {
       "id": "testimonial-1",
-      "description": "A happy customer.",
-      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "customer portrait"
+      "description": "A happy female customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "imageHint": "female customer portrait"
     },
     {
       "id": "testimonial-2",
-      "description": "Another happy customer.",
-      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "customer person"
+      "description": "Another happy female customer.",
+      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "imageHint": "female customer person"
     },
     {
       "id": "testimonial-3",
-      "description": "A third happy customer.",
+      "description": "A third happy female customer.",
       "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "happy customer"
+      "imageHint": "happy female customer"
     },
     {
       "id": "customer-1",
-      "description": "Customer wearing our clothes",
-      "imageUrl": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "street style"
+      "description": "Female customer wearing our clothes",
+      "imageUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "imageHint": "female street style"
     },
     {
       "id": "customer-2",
-      "description": "Customer wearing our clothes",
+      "description": "Female customer wearing our clothes",
       "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "fashion blogger"
+      "imageHint": "female fashion blogger"
     },
     {
       "id": "customer-3",
-      "description": "Customer wearing our clothes",
-      "imageUrl": "https://images.unsplash.com/photo-1492707892479-7486c27642de?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "stylish person"
+      "description": "Female customer wearing our clothes",
+      "imageUrl": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "imageHint": "stylish woman"
     },
     {
       "id": "customer-4",
-      "description": "Customer wearing our clothes",
-      "imageUrl": "https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "man fashion"
+      "description": "Female customer wearing our clothes",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "imageHint": "female fashion"
     }
   ]
 }

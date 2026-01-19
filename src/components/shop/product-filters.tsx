@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 import { useState } from "react"
 
-const categories = ["Men", "Women", "Accessories"];
+const categories = ["Dresses", "Tops & Blouses", "Bottoms", "Accessories"];
 const sizes = ["S", "M", "L", "XL", "One Size"];
 
 export function ProductFilters() {

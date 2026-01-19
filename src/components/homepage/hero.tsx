@@ -26,7 +26,7 @@ export function Hero() {
             Wear Your Confidence.
           </h1>
           <p className="mt-4 text-lg md:text-xl text-neutral-200">
-            Discover modern African luxury. Premium fabrics, bold designs, and the spirit of Lagos in every stitch.
+            Discover modern African luxury. Premium fabrics, bold designs, and the spirit of Uyo in every stitch.
           </p>
           <Button asChild size="lg" className="mt-8 bg-accent text-accent-foreground hover:bg-accent/90 text-lg py-7 px-8">
             <Link href="/shop">

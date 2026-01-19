@@ -82,7 +82,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
             <div className="mt-8 space-y-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-3">
                 <Truck className="h-5 w-5 text-primary" />
-                <span>Delivery Across Lagos</span>
+                <span>Delivery Across Nigeria</span>
               </div>
               <div className="flex items-center gap-3">
                 <Gem className="h-5 w-5 text-primary" />

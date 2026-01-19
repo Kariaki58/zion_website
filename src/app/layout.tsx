@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster";
 import { CartProvider } from '@/context/cart-context';
 
 export const metadata: Metadata = {
-  title: 'Lagos Luxe',
-  description: 'Premium clothing from Lagos, Nigeria.',
+  title: 'ZIGON COMPANY LTD',
+  description: 'Multi sector company redefining modern luxury across Fashion, Interior Design, Real Estate, and Contracting.',
 };
 
 export default function RootLayout({

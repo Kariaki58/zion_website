@@ -34,7 +34,7 @@ export function Header() {
         <Link href="/" className="flex items-center" prefetch={false}>
           <Image
             src="/logo_zigon.png"
-            alt="Lagos Luxe logo"
+            alt="ZIGON logo"
             width={180}
             height={50}
             className="w-28 h-10"
@@ -73,7 +73,7 @@ export function Header() {
                 <Link href="/" className="flex items-center" prefetch={false} onClick={() => setIsSheetOpen(false)}>
                    <Image
                     src="/logo_zigon.png"
-                    alt="Lagos Luxe logo"
+                    alt="ZIGON logo"
                     width={180}
                     height={50}
                     className="w-28 h-10"
