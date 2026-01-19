@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Shirt, Twitter, Instagram, Facebook } from 'lucide-react';
+import Image from "next/image";
+import { Twitter, Instagram, Facebook } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -7,9 +8,14 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-2" prefetch={false}>
-              <Shirt className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold font-headline text-foreground">Lagos Luxe</span>
+            <Link href="/" className="flex items-center" prefetch={false}>
+              <Image
+                src="https://placehold.co/180x50/000000/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+                alt="Lagos Luxe logo"
+                width={180}
+                height={50}
+                className="dark:invert"
+              />
             </Link>
             <p className="max-w-xs text-sm">
               Modern African luxury, designed with confidence and crafted with soul in the heart of Lagos.
