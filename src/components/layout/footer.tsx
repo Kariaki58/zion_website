@@ -10,7 +10,7 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center" prefetch={false}>
               <Image
-                src="https://placehold.co/180x50/000000/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+                src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
                 alt="Lagos Luxe logo"
                 width={180}
                 height={50}

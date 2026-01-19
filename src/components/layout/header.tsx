@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, ShoppingBag } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
@@ -11,10 +11,12 @@ import {
 } from '@/components/ui/sheet';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import { CartSheet } from '@/components/shop/cart-sheet';
 
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/shop', label: 'Shop' },
+  { href: '/checkout', label: 'Checkout'},
   { href: '/tracking', label: 'Tracking' },
   { href: '/about', label: 'About' },
   { href: '/contact', label: 'Contact' },
@@ -28,7 +30,7 @@ export function Header() {
       <div className="container flex h-20 items-center justify-between mx-auto px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center" prefetch={false}>
           <Image
-            src="https://placehold.co/180x50/000000/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+            src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
             alt="Lagos Luxe logo"
             width={180}
             height={50}
@@ -42,7 +44,9 @@ export function Header() {
               href={link.href}
               className={cn(
                 "transition-colors hover:text-foreground/80",
-                pathname === link.href ? "text-foreground" : "text-foreground/60"
+                pathname === link.href ? "text-foreground" : "text-foreground/60",
+                 // Hide checkout on desktop nav
+                link.href === '/checkout' ? 'hidden' : ''
               )}
               prefetch={false}
             >
@@ -50,11 +54,10 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <div className="flex items-center gap-4">
-          <Button variant="ghost" size="icon" className="md:hidden">
-            <ShoppingBag className="h-6 w-6" />
-            <span className="sr-only">Toggle cart</span>
-          </Button>
+        <div className="flex items-center gap-2">
+          <div className="hidden md:block">
+            <CartSheet />
+          </div>
           <Sheet>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
@@ -64,23 +67,24 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right">
               <div className="grid gap-4 p-4">
-                <Link href="/" className="flex items-center" prefetch={false}>
-                  <Image
-                    src="https://placehold.co/180x50/000000/FFFFFF?text=Lagos+Luxe&font=playfair-display"
+                 <Link href="/" className="flex items-center" prefetch={false}>
+                   <Image
+                    src="https://placehold.co/180x50/264226/FFFFFF?text=Lagos+Luxe&font=playfair-display"
                     alt="Lagos Luxe logo"
                     width={180}
                     height={50}
                     className="dark:invert"
                   />
-                </Link>
-                <nav className="grid gap-2 text-lg font-medium">
+                 </Link>
+                <nav className="grid gap-2 text-lg font-medium mt-4">
                   {navLinks.map((link) => (
-                    <Link
+                     <Link
                       key={link.href}
                       href={link.href}
                       className={cn(
-                        "flex items-center gap-4 px-2.5 transition-colors hover:text-foreground/80",
-                         pathname === link.href ? "text-foreground" : "text-foreground/60"
+                        "flex items-center gap-4 px-2.5 py-2 transition-colors hover:text-foreground/80",
+                         pathname === link.href ? "text-foreground" : "text-foreground/60",
+                         link.href === '/checkout' ? 'hidden' : ''
                       )}
                       prefetch={false}
                     >
@@ -91,6 +95,9 @@ export function Header() {
               </div>
             </SheetContent>
           </Sheet>
+           <div className="md:hidden">
+            <CartSheet />
+          </div>
         </div>
       </div>
     </header>

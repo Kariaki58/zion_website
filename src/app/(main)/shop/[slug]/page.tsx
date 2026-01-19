@@ -1,3 +1,5 @@
+'use client';
+
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { products } from '@/lib/mock-data';
@@ -7,20 +9,34 @@ import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
 import { Truck, Gem, Undo2 } from 'lucide-react';
 import { ProductCard } from '@/components/shop/product-card';
-
-export async function generateStaticParams() {
-  return products.map((product) => ({
-    slug: product.slug,
-  }));
-}
+import { useCart } from '@/context/cart-context';
+import { useState } from 'react';
+import { useToast } from '@/hooks/use-toast';
 
 export default function ProductDetailPage({ params }: { params: { slug: string } }) {
+  const { addToCart } = useCart();
+  const { toast } = useToast();
   const product = products.find((p) => p.slug === params.slug);
-  const relatedProducts = products.filter(p => p.category === product?.category && p.slug !== product?.slug).slice(0, 3);
+
+  const [selectedSize, setSelectedSize] = useState<string | null>(product?.sizes[0] || null);
 
   if (!product) {
     notFound();
   }
+
+  const relatedProducts = products.filter(p => p.category === product?.category && p.slug !== product?.slug).slice(0, 3);
+
+  const handleAddToCart = () => {
+    if (!selectedSize) {
+       toast({
+        variant: "destructive",
+        title: "Please select a size",
+        description: "You must select a size before adding to cart.",
+      });
+      return;
+    }
+    addToCart(product, selectedSize);
+  };
 
   return (
     <div className="bg-background">
@@ -44,7 +60,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
 
             <div>
               <h3 className="text-lg font-semibold mb-4">Select Size</h3>
-              <RadioGroup defaultValue={product.sizes[0]} className="flex flex-wrap gap-2">
+              <RadioGroup value={selectedSize || undefined} onValueChange={setSelectedSize} className="flex flex-wrap gap-2">
                 {product.sizes.map((size) => (
                   <div key={size}>
                     <RadioGroupItem value={size} id={`size-${size}`} className="sr-only" />
@@ -59,7 +75,7 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
               </RadioGroup>
             </div>
             
-            <Button size="lg" className="w-full mt-8 bg-primary text-primary-foreground hover:bg-primary/90 text-lg py-7">
+            <Button size="lg" className="w-full mt-8 bg-primary text-primary-foreground hover:bg-primary/90 text-lg py-7" onClick={handleAddToCart}>
               Add to Cart
             </Button>
 
