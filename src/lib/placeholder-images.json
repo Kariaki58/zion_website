@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "A stylish person in a vibrant urban Lagos setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWx8ZW58MHx8fHwxNzY4Njk1ODUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion model"
+    },
+    {
+      "id": "men-collection",
+      "description": "A man wearing modern African-inspired clothing.",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYWxlJTIwbW9kZWx8ZW58MHx8fHwxNzY4NzQyNjU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male model"
+    },
+    {
+      "id": "women-collection",
+      "description": "A woman in an elegant, contemporary dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmZW1hbGUlMjBtb2RlbHxlbnwwfHx8fDE3Njg4MDEzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female model"
+    },
+    {
+      "id": "about-us",
+      "description": "Artisans working on clothing in a workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1554881070-dda563db63de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwd29ya3Nob3B8ZW58MHx8fHwxNzY4ODAxMzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion workshop"
+    },
+    {
+      "id": "product-1",
+      "description": "Elegant green silk shirt.",
+      "imageUrl": "https://images.unsplash.com/photo-1639747280111-9a32b2c038ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmVlbiUyMHNoaXJ0fGVufDB8fHx8MTc2ODgwMTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "green shirt"
+    },
+    {
+      "id": "product-2",
+      "description": "Patterned trousers with a modern cut.",
+      "imageUrl": "https://images.unsplash.com/photo-1763741141483-1c2e71d32367?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYXR0ZXJuZWQlMjB0cm91c2Vyc3xlbnwwfHx8fDE3Njg4MDEzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "patterned trousers"
+    },
+    {
+      "id": "product-3",
+      "description": "Gold accent necklace.",
+      "imageUrl": "https://images.unsplash.com/photo-1705326454924-f6777522b030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb2xkJTIwbmVja2xhY2V8ZW58MHx8fHwxNzY4Nzg1MzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gold necklace"
+    },
+    {
+      "id": "product-4",
+      "description": "A flowing white linen dress.",
+      "imageUrl": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMGRyZXNzfGVufDB8fHx8MTc2ODc4Mzg4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white dress"
+    },
+    {
+      "id": "product-5",
+      "description": "A sharp, tailored blazer for men.",
+      "imageUrl": "https://images.unsplash.com/photo-1717730798531-6a62ed43b871?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZW4lMjBibGF6ZXJ8ZW58MHx8fHwxNzY4ODAxMzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "men blazer"
+    },
+    {
+      "id": "product-6",
+      "description": "Handcrafted leather sandals.",
+      "imageUrl": "https://images.unsplash.com/photo-1728384577685-91f8de0acc89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsZWF0aGVyJTIwc2FuZGFsc3xlbnwwfHx8fDE3Njg4MDEzMjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather sandals"
+    },
+    {
+      "id": "product-7",
+      "description": "A vibrant Aso-Oke fabric top.",
+      "imageUrl": "https://images.unsplash.com/photo-1757802504647-afc994581932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmYWJyaWMlMjB0b3B8ZW58MHx8fHwxNzY4ODAxMzIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fabric top"
+    },
+    {
+      "id": "product-8",
+      "description": "A minimalist black jumpsuit.",
+      "imageUrl": "https://images.unsplash.com/photo-1528674452993-a59496256bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxibGFjayUyMGp1bXBzdWl0fGVufDB8fHx8MTc2ODgwMTMyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "black jumpsuit"
+    }
+  ]
 }
